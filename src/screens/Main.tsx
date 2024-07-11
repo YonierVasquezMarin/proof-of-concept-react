@@ -5,7 +5,7 @@ export default function Main() {
     return (
         <View style={styles.container}>
             <Text>
-                Welcome to <Text style={styles.strong}>Main page</Text>
+                Welcome to <Text style={styles.strong}>Main screen</Text>
             </Text>
         </View>
     )
@@ -13,7 +13,8 @@ export default function Main() {
 
 const styles = StyleSheet.create({
     container: {
-        alignItems: 'center',
+        marginTop: 16,
+        alignItems: 'center'
     },
     strong: {
         fontWeight: 'bold',
